@@ -1,0 +1,717 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+}
+
+.header {
+    background-color: rgba(220, 220, 220, 1);
+}
+
+.header-line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: "Tinos", serif;
+}
+
+.logo-item {
+    color: #b51b1b;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.nav-menu,
+.nav-menu-merch {
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 32px;
+    font-family: "Tinos", serif;
+}
+
+.nav-menu:hover {
+    color: #b51b1b;
+}
+
+.nav-menu-merch:hover {
+    color: #b51b1b;
+}
+
+.social-icon {
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.main {
+    overflow: hidden;
+    background-image: url(./img/hetag.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.concert {
+    color: #b51b1b;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 260px;
+    font-weight: 500;
+    font-family: "Tinos", serif;
+}
+
+.show-afisha {
+    background-color: rgba(220, 220, 220, 0.5);
+    border: solid 3px #b51b1b;
+    border-radius: 8px;
+    margin: 0px 150px 0px 150px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-family: "Tinos", serif;
+}
+
+.show {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "Tinos", serif;
+}
+
+.table-afisha {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 34px;
+    font-family: "Tinos", serif;
+}
+
+.data-time {
+    padding-left: 160px;
+}
+
+.button-afisha {
+    background-color: #b51b1b;
+    padding: 10px 30px;
+    border-radius: 6px;
+    transition: 0.8s;
+}
+
+.button-afisha:hover {
+    transform: scale(1.5);
+}
+
+.ticket-btn {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    padding: 2em;
+    margin: -2em;
+    text-decoration: none;
+    font-size: 25px;
+    color: aliceblue;
+    font-family: "Tinos", serif;
+}
+
+
+.show-afisha-2 {
+    border: solid 3px #b51b1b;
+    border-radius: 8px;
+    margin: 0px 150px 0px 150px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    background-color: rgba(220, 220, 220, 0.5);
+    font-family: "Tinos", serif;
+}
+
+.show-afisha-3 {
+    border: solid 3px #b51b1b;
+    border-radius: 8px;
+    margin: 0px 150px 0px 150px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    background-color: rgba(220, 220, 220, 0.5);
+    font-family: "Tinos", serif;
+}
+
+.show-afisha-4 {
+    border: solid 3px #b51b1b;
+    border-radius: 8px;
+    margin: 0px 150px 0px 150px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    background-color: rgba(220, 220, 220, 0.5);
+    font-family: "Tinos", serif;
+}
+
+.video-block {
+    background-color: rgba(220, 220, 220, 1);
+    overflow: hidden;
+}
+
+.video-dec {
+    text-align: center;
+    color: #b51b1b;
+    font-size: 50px;
+    font-family: "Tinos", serif;
+}
+
+.video-content {
+    text-align: center;
+    display: grid;
+    justify-content: space-around;
+}
+
+.video-youtube {
+    margin-bottom: 30px;
+}
+
+.button-video {
+    background-color: rgba(220, 220, 220, 1);
+    margin-top: 30px;
+    padding-bottom: 130px;
+    text-align: center;
+
+}
+
+.more-video {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 25px;
+    background-color: #b51b1b;
+    border-radius: 6px;
+    box-sizing: border-box;
+    padding: 14px 20px;
+    width: 200px;
+    font-weight: 500;
+    transition: 0.5s ease all;
+    font-family: "Tinos", serif;
+
+}
+
+.more-video:hover {
+    border: 2px solid #b51b1b;
+    background: transparent;
+    color: #b51b1b;
+    font-weight: 700;
+}
+
+.footer {
+    overflow: hidden;
+    font-size: 20px;
+    background-color: rgba(220, 220, 220, 1);
+    padding-top: 150px;
+    padding-bottom: 30px;
+    font-family: "Tinos", serif;
+}
+
+/*
+.contact-footer {
+    font-size: 30px;
+    text-align: left;
+    color: #b51b1b;
+    font-weight: 700;
+}
+*/
+
+.contact-footer-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: left;
+    font-family: "Tinos", serif;
+    font-size: 25px;
+}
+
+.merch-title {
+    font-weight: 600;
+    font-family: "Tinos", serif;
+}
+
+.mail-title {
+    padding-bottom: 20px;
+    font-weight: 600;
+    font-family: "Tinos", serif;
+}
+
+.mail-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Tinos", serif;
+}
+
+.mail-adress,
+.social-icon-footer {
+    text-decoration: none;
+    color: black;
+}
+
+.mail-adress {
+    font-weight: 500;
+    font-family: "Tinos", serif;
+}
+
+
+.social-title {
+    font-weight: 600;
+    font-family: "Tinos", serif;
+}
+
+@media screen and (max-width: 1207px) {
+
+    .show-dec,
+    .data,
+    .time,
+    .place-moscow,
+    .place-moscow-club {
+        font-size: 25px;
+        font-weight: 550;
+    }
+
+    .data-time {
+        padding-left: 55px;
+    }
+
+    .show-afisha,
+    .show-afisha-2,
+    .show-afisha-3,
+    .show-afisha-4 {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .video-dec,
+    .video-content,
+    .button-video {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1120px) {
+
+    .show-dec,
+    .data,
+    .time,
+    .place-moscow,
+    .place-moscow-club {
+        font-size: 25px;
+        font-weight: 550;
+    }
+
+    .data-time {
+        padding-left: 55px;
+    }
+
+    .show-afisha,
+    .show-afisha-2,
+    .show-afisha-3,
+    .show-afisha-4 {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .video-dec,
+    .video-content,
+    .button-video {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1094px) {
+    .concert {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .concert-dec {
+        font-size: 70px;
+    }
+
+    .show-dec,
+    .data,
+    .time,
+    .place-moscow,
+    .place-moscow-club {
+        font-size: 25px;
+        font-weight: 550;
+    }
+
+    .data-time {
+        padding-left: 55px;
+    }
+
+    .show-afisha,
+    .show-afisha-2,
+    .show-afisha-3,
+    .show-afisha-4 {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .video-dec,
+    .video-content,
+    .button-video {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 968px) {
+
+    .body {
+        height: 100vh;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+    .nav-menu-merch {
+        font-size: 37px;
+    }
+
+    .data-time {
+        padding-left: 55px;
+    }
+
+    .video-dec,
+    .video-content,
+    .button-video {
+        text-align: center;
+    }
+
+    .contact-footer-block {
+        display: block;
+        align-items: center;
+        text-align: center;
+    }
+
+    .mail-title {
+        padding-bottom: 0px;
+    }
+
+    .social-title {
+        padding-bottom: 0px;
+    }
+
+
+    .footer {
+        font-size: 23px;
+    }
+
+}
+
+@media screen and (max-width: 799px) {
+
+    .nav-menu-merch,
+    .nav-social {
+        display: none;
+    }
+
+    .show-dec,
+    .data,
+    .time,
+    .place-moscow,
+    .place-moscow-club {
+        font-size: 21px;
+        font-weight: 570;
+        text-align: center;
+    }
+
+    .video-dec {
+        font-size: 45px;
+    }
+
+    .video-youtube {
+        width: 560px;
+        height: 315px;
+    }
+
+    .footer {
+        font-size: 23px;
+    }
+
+    .contact-footer-block {
+        display: block;
+        align-items: center;
+        text-align: center;
+    }
+
+    .mail-title {
+        padding-bottom: 0px;
+    }
+
+    .social-title {
+        padding-bottom: 0px;
+    }
+
+    .social-title {
+        padding-bottom: 10px;
+    }
+
+}
+
+@media screen and (max-width: 669px) {
+
+    .show-afisha,
+    .show-afisha-2,
+    .show-afisha-3,
+    .show-afisha-4 {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .concert-dec {
+        font-size: 50px;
+    }
+
+    .logo-item {
+        font-size: 30px;
+    }
+
+    .video-dec {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .video-youtube {
+        width: 460px;
+        height: 260px;
+        text-align: center;
+    }
+
+    .more-video {
+        font-size: 19px;
+        padding: 12px 17px;
+    }
+
+    .button-video {
+        padding-bottom: 85px;
+    }
+
+    .footer {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 629px) {
+
+    .show-afisha,
+    .show-afisha-2,
+    .show-afisha-3,
+    .show-afisha-4 {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .data-time {
+        padding-left: 40px;
+    }
+
+    .concert-dec {
+        font-size: 50px;
+    }
+
+    .logo-item {
+        font-size: 30px;
+    }
+
+    .video-dec {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .video-youtube {
+        width: 460px;
+        height: 260px;
+        text-align: center;
+    }
+
+    .more-video {
+        font-size: 19px;
+        padding: 12px 17px;
+    }
+
+    .button-video {
+        padding-bottom: 85px;
+    }
+
+    .footer {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 589px) {
+
+    .concert-dec {
+        font-size: 42px;
+    }
+
+    .data-time {
+        padding-left: 25px;
+    }
+
+    .button-afisha {
+        padding: 5px 10px;
+    }
+
+    .ticket-btn {
+        padding: 3em;
+        margin: -2em;
+        font-size: 17px;
+    }
+
+    .contact-footer-block {
+        display: block;
+        align-items: center;
+        text-align: center;
+    }
+
+    .mail-title {
+        padding-bottom: 0px;
+    }
+
+    .social-title {
+        padding-bottom: 0px;
+    }
+
+    .footer {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width: 529px) {
+
+    .table-afisha {
+        font-size: 19px;
+    }
+
+    .contact-footer-block {
+        display: block;
+        align-items: center;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .mail-title {
+        padding-bottom: 0px;
+    }
+
+    .social-title {
+        padding-bottom: 0px;
+    }
+
+    .footer {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 514px) {
+
+    .show-afisha,
+    .show-afisha-2,
+    .show-afisha-3,
+    .show-afisha-4 {
+        text-align: center;
+    }
+
+    .show-dec,
+    .data,
+    .time,
+    .place-moscow,
+    .place-moscow-club {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .ticket-btn {
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .button-afisha {
+        margin-right: 10px;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+
+    .body {
+        background-attachment: fixed;
+    }
+
+    .show-afisha,
+    .show-afisha-2,
+    .show-afisha-3,
+    .show-afisha-4 {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .video-youtube {
+        width: 360px;
+        height: 160px;
+        text-align: center;
+    }
+
+    .body {
+        object-fit: cover;
+    }
+
+    .show-dec,
+    .data,
+    .time,
+    .place-moscow,
+    .place-moscow-club {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+}
+
+@media screen and (max-width: 361px) {
+
+    .show-dec,
+    .data,
+    .time,
+    .place-moscow,
+    .place-moscow-club {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .button-afisha {
+        margin-right: 5px;
+    }
+}
+
+@media screen and (max-width: 310px) {
+    .ticket-btn {
+        padding: 2em;
+        margin: -2em;
+    }
+
+    .show-dec,
+    .data,
+    .time,
+    .place-moscow,
+    .place-moscow-club {
+        font-size: 12px;
+    }
+}
+
+
+
+/*
+background-image: url(./img/hetag.jpg);
+height: 100vh;
+background-repeat: no-repeat;
+background-size: cover;
+*/
