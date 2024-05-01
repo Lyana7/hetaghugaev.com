@@ -548,6 +548,10 @@ body {
 
 @media screen and (max-width: 589px) {
 
+    .button-afisha:hover {
+        transform: scale(1.2);
+    }
+
     .concert-dec {
         font-size: 42px;
     }
@@ -561,7 +565,7 @@ body {
     }
 
     .ticket-btn {
-        padding: 3em;
+        padding: 2em;
         margin: -2em;
         font-size: 17px;
     }
