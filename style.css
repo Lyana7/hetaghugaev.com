@@ -363,6 +363,10 @@ body {
 
 @media screen and (max-width: 968px) {
 
+    .button-afisha:hover {
+        transform: none;
+    }
+
     .body {
         height: 100vh;
     }
@@ -549,7 +553,7 @@ body {
 @media screen and (max-width: 589px) {
 
     .button-afisha:hover {
-        transform: scale(1.2);
+        transform: none;
     }
 
     .concert-dec {
